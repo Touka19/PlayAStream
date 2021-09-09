@@ -1,0 +1,31 @@
+{
+    "name": "container",
+    "description": "container bot",
+    "keywords": [
+      "bot",
+      "telegram"
+    ],
+    "success_url": "/",
+    "stack": "container",
+    "env": {
+        "API_HASH": {
+            "description": "Input your API HASH from Telegram."
+        },
+        "API_ID": {
+            "description": "Input your API ID from Telegram."
+        },
+        "AUTH_USERS": {
+            "description": "who all should be allowed to use the User"
+        },
+        "TG_BOT_SESSION": {
+            "description": "Get a String Session"
+        }
+    },
+
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
