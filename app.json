@@ -11,8 +11,8 @@
         "API_HASH": {
             "description": "Input your API HASH from Telegram."
         },
-        "API_ID": {
-            "description": "Input your API ID from Telegram."
+        "APP_ID": {
+            "description": "Input your APP ID from Telegram."
         },
         "AUTH_USERS": {
             "description": "who all should be allowed to use the User"
